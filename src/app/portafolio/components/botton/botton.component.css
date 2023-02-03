@@ -9,12 +9,12 @@
   width: 120px;
 }
 
-.button_morado {
+.primary {
 background-color: var(--purple);
   color: var(--while);
 }
 
-.button_gris {
+.secondary {
   background-color: var(--black);
   color: var(--while);
   border: 4px hidden var(--purple);

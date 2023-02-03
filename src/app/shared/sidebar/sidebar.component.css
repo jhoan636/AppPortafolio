@@ -21,7 +21,6 @@ nav ul {
   list-style: none;
 }
 
-
 nav ul li a {
   margin: 0 14px;
   color: var(--gray);
@@ -30,9 +29,3 @@ nav ul li a {
 }
 
 
-.material-symbols-outlined {
-  color: var(--gray);
-  font-size: var(--font-icon);
-  margin-left: 10px;
-
-}

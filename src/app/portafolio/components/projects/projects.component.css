@@ -1,8 +1,15 @@
 .container {
-  margin: 0 12vw;
-  height: 27vh;
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
 }
 
-.title {
-  color: var(--black);
+.container-portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12vw;
+  padding: 4vh 0;
+  height: 30vh;
+  /* background: #fafa; */
 }
+

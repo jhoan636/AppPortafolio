@@ -8,15 +8,13 @@ import { CardComponent } from './components/card/card.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { BottonComponent } from './components/botton/botton.component';
 
-
-
 @NgModule({
     declarations: [
         HomeComponent,
         MainComponent,
         CardComponent,
         ProjectsComponent,
-        BottonComponent
+        BottonComponent,
     ],
     exports: [
         HomeComponent
