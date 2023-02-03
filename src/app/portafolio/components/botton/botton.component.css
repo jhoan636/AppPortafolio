@@ -1,19 +1,21 @@
-.button_contact {
-  background-color: var(--purple);
+.button {
   border: none;
   border-radius: 30px;
-  color: var(--while);
   padding: 10px 20px;
   text-decoration: none;
   font-size: var(--font-size-botton);
   margin-right: 10px;
   cursor: pointer;
-
+  width: 120px;
 }
 
-.button_about {
-  background-color: var(--light);
-  border: 3px solid var(--light-gray-botton);
-  color: var(--light-gray-botton);
-  padding: 8px 19px;
+.button_morado {
+background-color: var(--purple);
+  color: var(--while);
+}
+
+.button_gris {
+  background-color: var(--black);
+  color: var(--while);
+  border: 4px hidden var(--purple);
 }
