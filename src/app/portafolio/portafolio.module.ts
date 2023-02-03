@@ -6,6 +6,7 @@ import { HomeComponent } from './page/home/home.component';
 import { MainComponent } from './components/main/main.component';
 import { CardComponent } from './components/card/card.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { BottonComponent } from './components/botton/botton.component';
 
 
 
@@ -14,7 +15,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
         HomeComponent,
         MainComponent,
         CardComponent,
-        ProjectsComponent
+        ProjectsComponent,
+        BottonComponent
     ],
     exports: [
         HomeComponent

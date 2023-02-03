@@ -1,0 +1,19 @@
+.button_contact {
+  background-color: var(--purple);
+  border: none;
+  border-radius: 30px;
+  color: var(--while);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: var(--font-size-botton);
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.button_about {
+  background-color: var(--light);
+  border: 3px solid var(--light-gray-botton);
+  color: var(--light-gray-botton);
+  padding: 8px 19px;
+}

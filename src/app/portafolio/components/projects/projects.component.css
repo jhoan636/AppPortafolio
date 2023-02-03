@@ -2,3 +2,7 @@
   margin: 0 12vw;
   height: 27vh;
 }
+
+.title {
+  color: var(--black);
+}

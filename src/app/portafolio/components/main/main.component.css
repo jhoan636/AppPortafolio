@@ -4,7 +4,6 @@
   align-items: center;
   margin: 0 12vw;
   height: 27vh;
-  background-color: #aaa;
 }
 
 .info h2 {
@@ -35,23 +34,4 @@
   color: var(--black);
 }
 
-.button {
-  background-color: var(--purple);
-  border: none;
-  min-width: 112px;
-  border-radius: 30px;
-  color: var(--while);
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: var(--font-size-botton);
-  margin-right: 10px;
-  cursor: pointer;
 
-}
-
-.button_gris {
-  background-color: var(--light);
-  border: 3px solid var(--light-gray-botton);
-  color: var(--light-gray-botton);
-  padding: 8px 19px;
-}
