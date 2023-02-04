@@ -1,11 +1,23 @@
 <div class="container">
   <div class="container-portfolio">
+    <h2 class="title">Projects</h2>
     <div class="container-projects">
-      <h2 class="title info">Projects</h2>
+      <app-card [data]="datos"></app-card>
     </div>
 
-    <div class="container-skill">
+    <!-- <div class="container-skill">
       <h2 class="title info">Skill</h2>
-    </div>
+
+      <h3>Frontend</h3>
+      <div class="img">
+
+        <img *ngFor="let item of frontend" src="{{ item.img }}" alt="" />
+      </div>
+
+      <h3>Backend</h3>
+      <div class="img">
+        <img *ngFor="let item of backend" src="{{ item.img }}" alt="" />
+      </div>
+    </div> -->
   </div>
 </div>

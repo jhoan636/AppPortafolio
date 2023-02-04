@@ -24,4 +24,4 @@ import { BottonComponent } from './components/botton/botton.component';
         SharedModule
     ]
 })
-export class PortafolioModule { }
+export class PortfolioModule { }

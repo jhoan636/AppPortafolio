@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
+
   // Texto enviado a los bottones
   text_contact: string = 'Contact Me';
   text_about: string = 'About Me';

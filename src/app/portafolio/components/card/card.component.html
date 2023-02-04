@@ -1,1 +1,12 @@
-<p>card works!</p>
+<div class="container">
+  <div *ngFor="let item of data" class="card">
+    <img src="{{ item.img }}" alt="Imagen de la tarjeta" />
+    <div class="card-text">
+      <h2>{{ item.title }}</h2>
+      <p>{{ item.section }}</p>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-solid fa-eye"></i>
+    </div>
+  </div>
+</div>
+

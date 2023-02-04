@@ -6,10 +6,54 @@
 
 .container-portfolio {
   display: flex;
-  justify-content: space-between;
-  margin: 0 12vw;
-  padding: 4vh 0;
-  height: 30vh;
-  /* background: #fafa; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 11vw;
+  height: auto;
 }
 
+.title {
+  margin: 3vh 0;
+}
+
+.img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img img {
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  object-fit: cover;
+}
+
+h2::before {
+  font-size: 21px;
+  content: "|";
+  color: var(--purple);
+  background-color: var(--purple);
+  border-radius: 9px;
+  margin-right: 20px;
+}
+
+p::marker {
+  font-size: 21px;
+  content: "|";
+  color: var(--purple);
+  background-color: var(--purple);
+  border-radius: 9px;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 1600px) {
+  .container-portfolio {
+    margin: 0 200px;
+
+  }
+}

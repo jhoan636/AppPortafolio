@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 12vw;
+  margin: 0 11vw;
   height: 25vh;
 }
 
@@ -17,6 +17,7 @@
   width: 100%;
   max-width: 400px;
   height: auto;
+  object-fit: cover;
 }
 
 .info span {
@@ -28,10 +29,19 @@
   color: var(--gray);
 }
 
-.info_mini {
-  font-weight: var(--font-width-h);
-  font-size: var(--font-size);
-  color: var(--black);
+@media only screen and (max-width: 1060px) {
+  .main {
+    justify-content:center;
+  }
+
+  .info_img img {
+   display: none;
+  }
 }
 
+@media only screen and (min-width: 1600px) {
+  .main {
+    margin: 0 200px;
+  }
+}
 

@@ -1,0 +1,17 @@
+[
+  {
+    "img": "../../../../assets/images/web_kevin.png",
+    "title": "Photography website",
+    "section": "A site created with the intention of showing and publicize different places landscapes people through photography"
+  },
+  {
+    "img": "../../../../assets/images/web_travel.png",
+    "title": "Travel website",
+    "section": "A site that shows a new way of traveling Colombia its landscapes and its trails giving a look to unforgettable places."
+  },
+  {
+    "img": "../../../../assets/images/web_sebastian.jpeg",
+    "title": "Pokemon",
+    "section": "A site that shows a new way of exploring Colombia, its landscapes and trails, taking a look at unforgettable places."
+  }
+]
